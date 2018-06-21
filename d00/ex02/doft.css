@@ -1,0 +1,126 @@
+body {
+	background-color: rgb(80, 80, 80);
+}
+
+div.header {
+	display: block;
+	position: relative;
+	background-color: rgb(144,144,144);
+	border-radius: 15px;
+	width: 80%;
+	height: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding: 5%;
+	box-shadow: 10px 10px;
+}
+
+div.header img.logo{
+	margin-top: 2%;
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	width: 40%;
+	height: 100%;
+	transform: translate(0, -50%);
+}
+
+div.header img.magnifier{
+	margin-top: 2%;
+	display: inline-block;
+	position: absolute;
+	top: 3%;
+	right: 5%;
+	margin: 0 auto;
+	width: 25%;
+	height: 100%;
+}
+
+div.header img.reload{
+	margin-top: 2%;
+	display: inline-block;
+	position: absolute;
+	top: 3%;
+	right: 2%;
+	margin: 0 auto;
+	width: 2.5%;
+	height: auto;
+}
+
+div.header img.close{
+	margin-top: 2%;
+	display: inline-block;
+	position: absolute;
+	bottom: 3%;
+	right: 2%;
+	margin: 0 auto;
+	width: 2.5%;
+	height: auto;
+}
+
+div.menu {
+	display: inline-block;
+	position: relative;
+	background-color: rgb(144,144,144);
+	border-radius: 15px;
+	width: 10%;
+	height: 70%;
+	margin-left: 6%;
+	margin-right: 2%;
+	margin-top: 2%;
+	padding-top: 70%;
+	box-shadow: 10px 10px;
+	vertical-align: top;
+}
+
+div.menu img.icon{
+	margin-top: 15%;
+	position: absolute;
+	top: 0%;
+	left: 6%;
+	margin: 0 auto;
+	width: 90%;
+	height: auto;
+}
+
+div.menu img.icon:hover{
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;	
+}	
+
+div.main {
+	display: inline-block;
+	position: relative;
+	background-color: rgb(144,144,144);
+	border-radius: 15px;
+	width: 65%;
+	height: 80%;
+	margin-right: -4%;
+	margin-top: 2%;
+	padding-top:80%;
+	box-shadow: 10px 10px;
+}
+
+div.main img.icon{
+	margin-top: 15%;
+	position: absolute;
+	top: 0%;
+	left: auto;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+div.pop-up {
+	top: 60%;
+	position: absolute;
+	background-color: rgb(136,255,137);
+	border-radius: 15px;
+	width: 25%;
+	height: 15%;
+	padding-left: 35%;
+	box-shadow: 10px 10px;
+}
+
