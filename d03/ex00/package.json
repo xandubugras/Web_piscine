@@ -1,0 +1,15 @@
+{
+  "name": "ex00",
+  "version": "1.0.0",
+  "main": "client.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
